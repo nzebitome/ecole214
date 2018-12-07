@@ -4,13 +4,11 @@ body{
 
 .leti{
 
-	margin-top:30px;
-	margin-bottom: 30px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 800px;
-	height: 700px;
+	margin:30px  auto;
+	width: 500px;
+	
 	background:white;
 	padding: 25px;
+	/*box-shadow: 0px 0px 0px 0px green;*/
 
 }

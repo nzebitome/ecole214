@@ -1,0 +1,15 @@
+body{
+	background-color: lightblue;
+}
+p{
+	box-sizing: 200px;
+	margin:25px;
+    background-color: lightblue;
+    width: 200px;
+    padding: 25px;
+    border: 10px solid yellow;
+    outline-style: dotted;
+    outline-color: invert;
+    outline-width: 10px;
+
+	}
