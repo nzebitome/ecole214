@@ -1,12 +1,12 @@
 /*declaration des police*/
 @font-face{
   font-family: "merriweather";
-  src: url(../fonts/merriweather-Bold.ttf);
+  src: url(../fonts/Merriweather-Bold.ttf);
 }
 @font-face{
   font-family: "motion picture personal";
   src: url(../fonts/motion/MotionPicture_PersonalUseOnly.ttf);
-}
+} 
 @font-face{
   font-family: "montserrat";
   src: url(../fonts/Montserrat-Bold.ttf);
@@ -46,6 +46,8 @@ li { float: left; }
 
 
 }
+.right>li i{margin: 5px;}
+.search {margin-left: 30px;}
 .nav{
   display: block;
   text-align: center;
@@ -54,6 +56,7 @@ li { float: left; }
  
 }
 .nav>li a{
+   font-family: montserrat, sans-serif;
   text-decoration: none;
   color:#8A8A8A;
   margin: 10px;
@@ -61,7 +64,7 @@ li { float: left; }
 
 .ban-img{
   background: url(../img/fond-top.jpg)  no-repeat;
-  height: 500px;
+  height: 550px;
   background-size: cover;
   position: relative;
   margin-top: 20px;
@@ -82,13 +85,13 @@ li { float: left; }
   background-color:#00BF9A;
   border-radius: 20px;
   color: white;
-  padding: 9px 25px;
+  padding: 6px 15px;
   margin-top: 150px;
   margin-left: 200px;
 
   text-align: center;text-decoration: none;
   display: inline-block;
-  font-size:16px;
+  font-size:11px;
   font-family:'montserrat'; 
 
 
@@ -141,10 +144,15 @@ li { float: left; }
   float: right;
   position: absolute;
   margin-bottom: 10px;
+  padding-right: 200px;
+
 
 }
 .p-mar{
   font-family: merriweather;
- padding-top: 50px;
+ padding-top: 60px;
+ padding-left: 10px;
+ font-size: 13px;
+
   
 }
