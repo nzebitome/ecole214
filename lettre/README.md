@@ -2,6 +2,6 @@
 **Bonjour tous le monde**
 ```css
 .padding{
-padding:15px;
+	padding:15px;
 }
 ```
