@@ -1,0 +1,46 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body {
+	
+	
+	background-color: antiquewhite;
+}
+.contenu{
+	
+	background-color: red;
+	height: 100vh;
+
+}
+.left{
+	height: 100vh;
+	width: 60%;
+	background-color: yellow;
+	float: left;/*faire flotter l'element a gauche*/
+	}
+.right{
+	background-color: blue;
+	height: 100vh;
+	width: 40%;
+	float: right;
+}
+
+.title{
+	background-color: white;
+	height: 350px;
+	width: 500px;
+	margin: 150px auto;
+	padding: 20px;
+	text-align: center;
+
+}
+.login {
+	background-color: #00ff55;
+	height: 300px;
+	width: 350px;
+	padding: 20px;
+	margin: 150px auto;
+	text-align: center;
+
+}
