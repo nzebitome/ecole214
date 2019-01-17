@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.fixe-div{
+	width: 80%;
+	margin: auto;
+	padding: 10px 0;
+}
+.posi{
+	position: relative;
+}
+.left{
+
+  display: inline-block;
+}
+.right{
+	float: right;
+	display: inline-block;
+}
+li{
+	display: inline-block;
+	margin: 10px;
+}
+
+.cl-hr{
+  width: 80%;
+  color:#4170FF;
+}
+ a{
+text-decoration: none;
+
+}
+.bg1{
+	background-color:#50B5FF;
+	border-radius: 10px;
+}
+button{}
+
+.bg{
+	background-color: #ECF0F1;
+	border-radius: 8px;
+}
+.image img {
+	width: 460px;
+	border-radius: 3px;
+
+}
+.center-eq{
+	text-align: center;
+	margin: 15px 20px;
+
+}
+#monelem
+{
+border-radius: 5px 5px 5px 5px;/* on fait un arrondi sur les angles */ 
+position:absolute; /* on positionne le div à 150 px du bord gauche */ 
+right: -120px;
+bottom: 110px;
+font-size:18px; /* Taille des caractères */ 
+width:60%; /* Largeur du div */ 
+height:600px; /* Hauteur du div */ 
+background-color:cyan; /* Couleur du div */ 
+/* Rotation du div */
+transform:rotate(20deg);
+z-index: 1;
+}
+.div-incl{
+background-image: linear-gradient( #62b6f9, #46c2eb, #35c9e3, rgba(71, 193, 236, 1));
+
+}
+.posi1{
+	position: relative;
+	z-index: 2;
+}
+/*.rotation {
+
+  transform: translate(100px) rotate(20deg);
+  transform-origin: 0 -250px;
+  color: green;
+}*/
+
+section{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 400px;
+	width: 1200px;
+	background:#000;
+	box-shadow: 0 25px 30px rgba(0,0,0,.5);
+	display: flex;
+
+}
+.content{
+	width:calc(50% - 50px);
+	height:100%;
+	background: #fff;
+	
+}
+.imagebox{
+	width: calc(50% + 50px);
+	height: 100%;
+	background:#f00;
+	box-sizing: border-box;
+	border-left: 100px solid #000;
+	border-bottom: 400px solid transparent ;
+	
+
+}
