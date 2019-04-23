@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #20024a;
+
+}
+.container{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 1000px;
+	height: 500px;
+	display: flex;
+}
+
+.container .boxx{
+	position: relative;
+	width: 250px;
+	height: 500px;
+	background: #ccc; 
+	transition: 0.5s;		
+}
+.container .boxx:hover{
+	transform: scale(1.1);
+	z-index: 1;
+	box-shadow: 0 5px 20px rgba(0,0,0,1);
+
+}
+.container .boxx .img{
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+.container .boxx:nth-child(odd) .img
+{
+	bottom: 0;
+	left: 0;
+
+}
+.container .boxx:nth-child(even) .iconn
+{
+	bottom: 0;
+	left: 0;
+
+}
+.container .boxx .img img{
+	width: 100%;
+}
+.container .boxx .iconn{
+	position :absolute;
+	width: 100%;
+	height: 250px;
+	background: #262626;
+}
+.container .boxx:nth-child(1) .iconn
+{
+	background: #8553cb;
+
+}
+.container .boxx:nth-child(2) .iconn
+{
+	background: #fe8f01;
+
+}
+.container .boxx:nth-child(3) .iconn
+{
+	background: #79d400;
+
+}
+.container .boxx:nth-child(4) .iconn
+{
+	background: #ff3b34;
+
+}
+.container .boxx .iconn .content{
+	position: absolute;
+	top: calc( 50% + 16px);
+	transform: translateY(-50%);
+	padding:20px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	transition: 0.5s;
+
+
+}
+.container .boxx:hover .iconn .content{
+		top: calc( 50%);
+}
+.container .boxx .iconn .content .fa{
+	font-size: 80px;
+	color: white;
+}
+.container .boxx .iconn .content h3{
+	padding: 0;
+	margin: 0;
+	color: white;
+	padding: 10px 0;
+}
+.container .boxx .iconn .content a{
+	display: inline-block;
+	padding: 5px 20px;
+	color: white;
+	border:2px solid white;
+	text-decoration: none;
+	transition: 0.5s;
+	border-radius: 20px;
+	transform: scale(0);
+}
+.container .boxx:hover .iconn .content a{
+	transform: scale(1);
+}
+.container .boxx .iconn .content a:hover{
+	background: white;
+	color:#262626; 
+}
+@media (max-width: 1000px){
+	.container{
+		width: 100%;
+		height: auto;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	.container .boxx{
+		height: 250px;
+	}
+	.container .boxx .img{
+		display: none;
+	}
+}
+@media (max-width: 768px){
+	.container{
+	display: initial;
+	}
+	.container .boxx {
+		width: 50%;
+		height: 250px;
+		float: left;
+	}
+}
+@media (max-width: 480px){
+	.container{
+	top: 0;
+	left: 0;
+	transform: translate(0);
+	}
+	.container .boxx {
+		width: 100%;
+		height: 250px;
+		float: none;
+	}
+}
