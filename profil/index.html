@@ -8,37 +8,48 @@
 		 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
 	</head>
 	<body>
 		<header class="bg">
-			<div class="container d-flex justify-content-around nav">
-				<div>
-					<span class="display">
-							<i class="fas fa-map-marker-alt marg icon1"></i>
-					</span>
-					<div class="display">	
-						<p class="nze1">
-							Libreville (Gabon) <br> Cité-Damas
-						</p> 
-					</div>
-				</div>
-				<div>
-					<span>
-						<i class="fas fa-phone marg icon1"></i>
-					</span>
-					<div class="display">	
-						<a class="nav-link none white" href="tel:06540390">+241-06540390 <br> +241-07017505</a>
-					</div>
-				</div>
-				<div>
-					<span>
-						<i class="fas fa-mail-bulk marg icon1"></i>
-					</span>
-					<div class="display">
-						<a class="nav-link none nze1" href="mailto:nzbtm60@gmail.com">nzbtm60@gmail.com</a>
-					</div>
-				</div>
-			</div>
+			 <nav class="main-menu">
+              <ul>
+                  <li>
+                      <a href="#section_apropos"><abbr title="A propos de moi"><img src="assets/img/78.png" width="40" height="40"></abbr> </a>
+                  </li>
+                  <br>
+                  <br>
+                  <br>
+                  <li class="has-subnav">
+                    <a href="#section_competences">
+                 <abbr title="Compétences"><img src="assets/img/75.png" width="40" height="40"></abbr> 
+                         
+                      </a>
+                  </li>
+                  <br>
+                  <br>
+                  <br>
+                  <li class="has-subnav">
+                      <a href="#section_formation">
+                        <abbr title="Formations"><img src="assets/img/76.png" width="40" height="40"></abbr> 
+                        
+                      </a>
+                  </li>
+                  <br>
+                  <br>
+                  <li>
+                      <a href="#section_production">
+                      <abbr title="Réalisations"><img src="assets/img/79.png" width="40" height="40"></abbr>  
+                         </a>
+                         
+                     
+                  </li>
+                  <br>
+                  <br>
+              </ul>
+          </nav>
+			
 			<div>
 				<a href="#" class="btn-cv btn-orange none">Télécharger CV</a>
 			</div>
@@ -51,11 +62,10 @@
 	  						
 	  					</div>
 	  				</div>
-	  				<div class="info-g">
-						<h2 class="nze"><b>NZE BITOME</b></h2>
-						<p class="color-j">DEVELOPPEUSE WEB</p>
-						<p>"Le succès d’une vie dépend de la capacité à oublier <br> ce qui n’est pas approprié au moment présent."</p>
-		  				<span><i class="fab fa-facebook-f icon f-cicle"></i></span>
+	  				<div  class="info-g">	
+							<p class="taile">Bonjour, je suis NZE BITOME Leticia Pauline Developpeuse Web/Mobile, <br> J'aime construire des interfaces et des productions de code interactif. <br>
+						"Le succès d’une vie dépend de la capacité à oublier <br> ce qui n’est pas approprié au moment présent."</p>
+		  				<span> <a href="https://www.facebook.com/leticiapauline.nzebitome.9"><i class="fab fa-facebook-f icon f-cicle"></i></a></span>
 		  				<span >
 		  					<i class="fab fa-twitter icon"></i>
 		  				</span>
@@ -74,21 +84,25 @@
 				<section>
 					<div class="neutre"></div>
 				</section>
-				<section class="">
-					<div class="left">
+				<section id="section_apropos">
+					<div class="right div-sep3 w6">
 						<hr class="w1">
-						<h3 class="w1">About Me</h3>
-					</div>
-					<div class="w right">
-						<p> NZE BITOME Leticia Pauline, 
-							Spécialisé dans le développement de site Internet,Application Web/Mobile  et notamment le développement PHP, mon accompagnement peut couvrir selon vos besoins l’ensemble des étapes d’un projet de sa conception, à la réalisation puis son suivi.
+						<h3 class="w1">Ma Présentation</h3>
+						<br>
+						<p class="left whidth w1"> Je suis une jeune femme
+							Spécialisée dans le développement de sites Internet, Applications Web et Mobile. Je suis agée de 25 ans et je reside à Libreville au GABON. Célibataire et sans enfants j'aime le contact humain, la cuisine,le partage et aussi la recherche de nouvelles choses.
+ Mon accompagnement peut couvrir selon vos besoins l’ensemble des étapes de réalisation d’un projet: de sa conception, à son déploiement mais également le suivi et la maintenance du produit. Pour mener à bien tous mes travaux j'utilise des méthodes de travail bien structurées telles que la méthode scrum et plusieurs outils de collaboration tels que Slack.
+							J'ai pour objectif d'apporter des solutions à travers le numérique et d'autres domaines.
 						</p>
 					</div>
+					<div class="left  div-sep3">
+						<img  src="assets/img/25.png" width="350" height="500">
+					</div>
 				</section>
-				<section class="separe clearfix">
+				<section id="section_competences" class="separe clearfix div-sep1">
 					<div class="">
 						<hr class="w1" >
-						<h3 class="w1">Skills</h3>
+						<h3 class="w1">Mes Competences</h3>
 					</div>
 					<div>
 						<div class="w1 separe1">
@@ -101,24 +115,86 @@
 								<div class="cicle">
 									<span class="display3"></span>
 								</div>	
+								<span class="espace top-2">PHP</span>
+								<div class="cicle top-1">
+									<span class="display8"></span>
+								</div>	
 							</div>
 							<div class="text-right w3">
 								<span class="espace top-3">BOOTSTRAP</span>
 								<div class="cicle">
 									<span class="display2"></span>
 								</div>
-								<span class="espace top-4">HTML</span>
+								<span class="espace top-4">Java script</span>
 								<div class="cicle">
-									<span class="display3"></span>
-								</div>	
+									<span class="display8"></span>
+								</div><span class="espace top-2">Wordpress</span>
+								<div class="cicle top-1">
+									<span class="display9"></span>
+								</div>
 							</div>
 						</div>	
 					</div>
 				</section>
-				<section class="separe">
+				<section id="section_formation" class="div-sep">
+					
+					<div class="relat">
+						<div class="div-c">
+							 <div class="timeline-badge"><i class="far fa-thumbs-up"></i></div>
+							 <div class="timeline-badge1"><i class="far fa-check-circle"></i></div>
+							  <div class="timeline-badge2"><i class="fas fa-graduation-cap"></i></div>
+							   <div class="timeline-badge3"><i class="fas fa-laptop"></i></div>
+						</div>
+						<hr class="w1">
+						<h3 class="w1">Formations</h3>
+						<div class=" row d-flex justify-content-around card3">
+							<div class="col-md-4">
+								<div class="card">
+							    	 <div class="card-body">
+								      <h5 class="card-title">En cour</h5>
+								      <p class="card-text">Formation en cour à l'ecole 241.</p>
+								      <p class="card-text"><small class="text-muted">2018-2019</small></p>
+							    	</div>
+					  			</div>
+							</div>
+							<div class="card4-inverted col-md-4">
+								<div class="card card1">
+						    	<div class="card-body">
+							      <h5 class="card-title">Participer</h5>
+							      <p class="card-text">Space Apps Nasa au GABON.</p>
+							      <p class="card-text"><small class="text-muted">2018</small></p>
+						    	</div>
+					  		</div>
+						
+							</div>
+						</div>
+						<div class="row d-flex justify-content-around separe card3">
+							<div class="col-md-4">
+						  		<div class="card card1">
+							    	<div class="card-body">
+								      <h5 class="card-title">Diplome</h5>
+								      <p class="card-text">Diplome de Technicien Superieur en Genie Logiciel.</p>
+								      <p class="card-text"><small class="text-muted">2017</small></p>
+							    	</div>
+						  		</div>
+					  		</div>
+					  		<div class="card4-inverted col-md-4 card2">
+						  		<div class="card">
+							    	<div class="card-body">
+								      <h5 class="card-title">Diplome </h5>
+								      <p class="card-text">baccalauréat serie D.</p>
+								      <p class="card-text"><small class="text-muted">Session 2015</small></p>
+							    	</div>
+						  		</div>
+					  		</div>
+					  	</div>
+					</div>
+				</section>
+
+				<section id="section_production" class="separe">
 					<div class="text-left">
 						<hr class="w1">
-						<h2 class="w1">Production</h2>
+						<h2 class="w1">Réalisation</h2>
 					</div>
 					<div class="row clearfix separe1 position">
 						<div class="container1 col-md-3 w4">
@@ -147,15 +223,83 @@
     							<a href="https://nzebitome.github.io/ecole241/magazine"><div class="text">Deshi-Mag</div></a>
   							</div>
 						</div>
+						<br>
+						<br>
+						<div class="container1 col-md-3 position w4 separe">
+							<a href="https://nzebitome.github.io/ecole241/myga">
+								<img src="assets/img/adhi1.png" class="box image" width="320" height="200">
+							</a> 
+							<div class="overlay">
+    							<a href="https://nzebitome.github.io/ecole241/myga"><div class="text">ADHI</div></a>
+  							</div>
+						</div>
+						<div class="container1 col-md-3 position w6 separe">
+							<a href="https://nzebitome.github.io/ecole241/myga">
+								<img src="assets/img/gito.png" class="box image" width="320" height="200">
+							</a> 
+							<div class="overlay">
+    							<a href="https://nzebitome.github.io/ecole241/myga"><div class="text">ONE</div></a>
+  							</div>
+						</div>
 					</div>	
 				</section>
+			
+<div id="section-conctac" class="background">
+  <div class="container1">
+    <div class="screen">
+      <div class="screen-header">
+      
+        
+      </div>
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <span>CONTACT</span>
+            
+          </div>
+          
+          <div class="app-contact">CONTACTEZ MOI : +241 06 64 87 53 <br> <br> nzbtm60@gmail.com  <br> Libreville (Gabon)  Cité-Damas</div>
+
+        </div>
+        <div class="screen-body-item">
+          <div class="app-form">
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="NOM" >
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="EMAIL">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="CONTACT">
+            </div>
+            <div class="app-form-group message">
+              <input class="app-form-control" placeholder="MESSAGE">
+            </div>
+            <div class="app-form-group buttons">
+              <button class="app-form-button">ANNULER</button>
+              <button class="app-form-button">ENVOYER</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+</div>
+
+
+
+
+
+
+
 				</div>
 		</main>
-		<div class="casta">
+	
 			<div class="row">
 				<div class="col-md-4"></div>
 				<div class="col-md-4" style="padding: 8px">
-					<div>Copyrights &copy; <a href="#">Leticia Pauline</a>. Tous droits réservés</div>
+					<div>Copyrights &copy; <a class="a" href="#">Leticia Pauline</a>. Tous droits réservés</div>
 				</div>
 				<div class="col-md-4" style="padding: 8px">
 					<span><i class="fab fa-facebook-f icon f-cicle"></i></span>
@@ -170,7 +314,6 @@
 		  				</span>
 				</div>
 			</div>
-		</div>
 		
 
 
@@ -178,11 +321,36 @@
 
 
 
+			<script>
+				  function typeEffect(element, speed) {
+				  var text = $(element).text();
+				  $(element).html('');
+				  
+				  var i = 0;
+				  var timer = setInterval(function() {
+				          if (i < text.length) {
+				            $(element).append(text.charAt(i));
+				            i++;
+				          } else {
+				            clearInterval(timer);
+				          }
+				        }, speed);
+				}
 
+				$( document ).ready(function() {
+				  var speed = 75;
+				  var delay = $('.taile').text().length * speed + speed;
+				  typeEffect($('.taile'), speed);
+				  setTimeout(function(){
+				    $('.taile').css('');
+				    typeEffect($('.taile'), speed);
+				  }, delay);
+				});
+			</script>
 
-
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+			
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	</body>
 </html>
