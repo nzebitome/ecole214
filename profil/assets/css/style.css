@@ -3523,6 +3523,21 @@ textarea {
 #rea{
   font-weight: bold;
 }
+#pre{
+  font-weight: bold;
+}
+#com{
+  font-weight: bold;
+}
+#ser{
+  font-weight: bold;
+}
+#for{
+  font-weight: bold;
+}
+#con{
+  font-weight: bold;
+}
 
 .page-header-alpha .navbar-mainmenu .nav-item a {
   color: #fff;
