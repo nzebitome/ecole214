@@ -63,14 +63,14 @@ audio, canvas, img, svg, video {
 }
 .cv{
   background: transparent;
-  color: white;
+  color: white !important;
   font-size: 20px;
   border:none;
   text-align: center;
   font-weight: bold;
 }
 .cv:hover{
-  color: white;
+  color: white !important;
 }
 
 .pageloader {
