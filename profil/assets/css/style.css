@@ -61,6 +61,17 @@ audio, canvas, img, svg, video {
     font-size: 1rem
   }
 }
+.cv{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border:none;
+  text-align: center;
+  font-weight: bold;
+}
+.cv:hover{
+  color: white;
+}
 
 .pageloader {
   position: fixed;
@@ -157,7 +168,7 @@ audio, canvas, img, svg, video {
 .btn {
   color: #fff;
   border: 1px solid transparent;
-  background-color: #3346d1
+  background-color: #3346d1;
 }
 
 .btn.active, .btn:active {

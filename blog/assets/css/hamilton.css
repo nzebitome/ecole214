@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'futura';
+    src: url('font/futura-light.ttf');
+    font-weight: 100;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color : #2f2f2f;;
+    font-family: 'futura';
+    
+}
+footer{
+    background-color: #000000;
+    height: 200px;
+}
+
+.navigation{
+    width: 100%;
+}
+.nav-bar{
+    margin: auto;
+    width: 370px;
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-bar li{
+    display: inline;
+    margin-left: 5px;
+    font-size: 11px;
+    color: #cccccc;
+}
+.nav-bar li:first-child{
+    color: #2f2f2f;
+}
+.baner{
+    height: 200px;
+    background-image: url("../img/15.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+main{
+    display: flex;
+}
+.container{
+    width: 670px;
+    margin: auto;
+}
+.stranch-1{
+    width: 450px; 
+}
+.art-1, .art-2,.art-3{
+    padding: 20px 0;
+}
+.art-1 span,.art-3 span, .art-2 span{
+    font-size: 13px;
+}
+.art-img{
+    margin-top: 9px;
+    width: 100%;
+    height: 300px;
+}
+.art-titre, .btn{
+    display: block;
+}
+.art-titre{
+    font-weight: 100;
+    font-size: 20px;
+}
+.smolly{
+    margin-bottom: 8px;
+    border: 1px solid #2f2f2f;
+    width: 60px;
+    text-align: center;
+    font-size: 11px;
+    padding: 1px 5px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.biger{
+    border: 0.5px solid #2f2f2f;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    font-weight: 100;
+    cursor: pointer;
+}
+.stranch-2{
+    width: 250px;
+    padding-top: 20px;
+    padding-left:30px;
+}
+
+.welcom-img{
+    width: 145px;
+    margin-bottom: 6px;
+}
+.welcom{
+    text-align: center;
+}
+.mot span:first-child, p{
+    font-size: 11px;
+    margin-bottom: 9px;
+}
+.icones{
+    margin: 5px;
+}
+.icones img{
+    margin: 0 4px;
+}
+.mot p{
+    text-align: justify;
+}
+.stranch-2 hr{
+    border : 0.7px solid #cccccc;
+}
+.mini-1{
+    display: flex;
+    margin-top: 9px;
+}
+.small-text p{
+    font-size: 11px;
+    margin-top:0;
+    padding-left: 10px;
+}
+.small-text span{
+    font-size: 9px;
+    margin-top:0;
+    padding-left: 10px;
+}
+.archive ul{
+    list-style-type: none;
+    font-size: 10px;
+}
+.archive li{
+    margin-bottom: 7px;
+    margin-left: -40px;
+}
+.pagination{
+    text-align:center;
+}
+.pagination span{
+    border: 1px solid #2f2f2f;
+    padding: 4px 10px;
+    text-align: center;
+    font-size: 11px;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+.pagination span:first-child{
+    border: 1px solid #cccccc;
+    color: #cccccc;
+}
+.foot-1{
+    color: #ffffff;
+    text-align: center;
+}
+.foot-1 strong{
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: lighter;
+    
+}
+.foot-2 img{
+    margin: 1px -1.7px;
+    width: 107px;
+    height: 100px;
+}
