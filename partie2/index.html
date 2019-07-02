@@ -5,162 +5,235 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
 	</head>
 	<body>
 		<header>
-			<nav class="nav-center">
-				<ul class="list">
-					<li> <a href="index.html">Accueil</a> </li>
-					<li> <a href="auteur.html">A propos</a> </li>
-					<li> <a href="#">Catégories</a></li>
-					<li> <a href="#">MES BERMUDES-LA BOUTIQUE</a></li>
-					<li> <a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-			<div class="bg-nav">
-				<h1> <span class="my">MY</span>BERMUDES</h1>
+			<ul class="nav justify-content-center list">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="index.html">Acceuil</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="auteur.html">A propos</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Categorie</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#" >MES BERDUMES-LA BOUTIQUE</a>
+			  </li>
+			   <li class="nav-item">
+			    <a class="nav-link" href="contact.html">Contact</a>
+			  </li>
+			</ul>
+			<div class=" container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-12 col-sm-12 col-lg-12 bg-nav">
+						<h1> <span class="my">MY</span>BERMUDES</h1>
+			    	</div>
+				</div>
 			</div>
 		</header>
 		<main class="container">
-			<section class="sect-cart">
-				<article>
-					<div>
-						<div class="lifestyle">LIFESTYLE</div>
-						<strong>UN MARIAGE CIVIL À PARIS</strong> 
-						<br>
-						<small> July 28, 2018</small>
-						<div>
-							<img src="assets/img/2.png" class="img" alt="image lifestyle paris">
-						</div>
-						<p>Voilà qui explique un peu ma relative absence de ces derniers mois... Au delà des bijoux My Bermudes, mon temps libre a été concentré sur l'organisation de notre grand événement de l'année 2018 : notre mariage ! Alors que nou...  </p>
-						<button>Lire plus </button>
-					</div>
-				</article>
-				<article>
-						<div>
-						<div class="lifestyle">LIFESTYLE</div>
-						<strong>SE METTRE À LA MÉDITATION</strong>
-						<br> 
-						<small>October 22, 2017</small> 
-						<div>
-							<img src="assets/img/4 .png" class="img" alt="image lifestyle bijoux">
-						</div>
-						<p>Hello ! Je suis très heureuse de vous retrouver aujourd'hui sur My Bermudes, pour un petit article dédié à une nouvelle habitude que j'ai adoptée à la rentrée : la méditation. Si les bienfaits de cette pratique ne sont plus à...  </p>
-						<button>Lire plus </button>
-					</div>
-				</article>
-				<article>
-					<div>
-						<div class="lifestyle">LIFESTYLE</div>
-						<strong>MY BERMUDES : LES BIJOUX !</strong> 
-						<br>
-						<small>September 19, 2017</small> 
-						<div>
-							<img src="assets/img/5.png" class="img" alt="image lifestyle meditation">
-						</div>
-						<p>Hello ! Me voici de retour avec beaucoup de contenu à partager avec vous en cette rentrée bien chargée, et je commence avec un petit projet qui me tient particulièrement à coeur. Si vous me suivez depuis quelques temps et l'a... </p>
-						 <a href="article.html" class="button">Lire plus</a>
-					</div>
-				</article>
-				<br>
-				<section class="pagination">
-					<span>1</span>
-					<span>2</span>
-					<span>3</span>
-					<span>4</span>
-					<span>5</span>
-					<span>Next ></span>
-				</section>	
-			</section>
-		
-			<aside class="asid">
-				<div>
-					<img src="assets/img/3.png" alt="my bermudes" class="asid-img">
-				</div>
-				<div>
-					<p>Bienvenue sur MY BERMUDES !</p>
-					<p>Je partage sur ce blog mes coups de coeur et découvertes mode, beauté, lifestyle ainsi que mes carnets de voyages.</p>
-				</div>
-				<div class="follow">
-					<h1>FOLLOW ME</h1>
-					<span>
-						<img src="assets/img/12.png" width="15" height="15" class="icon-img" alt="icone facebook">
-					</span>
-		  			<span >
-		  				<img src="assets/img/15.png" width="15" height="15" class="icon-img" alt="icone twitter">
-		  			</span>
-		  			<span>
-		  				<img src="assets/img/13.png" width="15" height="15" class="icon-img" alt="icone instagram">
-		  			</span>
-		  			<span>
-		  				<img src="assets/img/1.svg" width="15" height="15" class="icon-img" alt="icone fleur">
-		  			</span>
-		  		</div>		
-				<hr >
-				<div>
-					<h1> DERNIERS ARTICLES</h1>
-				</div>
-				<div>
-					<div class="d-image">
-						<div>
-							<img src="assets/img/1.png" width="50" height="50" alt="image paris">
-						</div>
-						<div class="text-img">
-							<p class="titre-img">UN MARIAGE CIVIL À PARIS</p>
-							<small class="date">July 28, 2018</small> 
-						</div>
-					</div>
-					<div class="d-image">
-						<div>
-							<img src="assets/img/2.png" width="50" height="50" alt="image meditation">
-						</div>
-						<div>
-							<p class="titre-img">SE METTRE À LA MÉDITATION</p>
-							<small class="date"> October 22, 2017</small>
-						</div>
-						
+			<div class="row">
+				<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+					<div class="row">
+							<article>
+									<div class="col-2 col-md-2 col-sm-2 col-lg-2 mt-3 ml-3 mb-3 lifestyle">LIFESTYLE</div>
+									<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+										<strong>UN MARIAGE CIVIL À PARIS</strong> 
+									</div>
+									<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+										<small> July 28, 2018</small>
+									</div>
+									<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+										<img src="assets/img/2.png" class="img img-fluid" alt="image lifestyle paris">
+									</div>
+									<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+										<p class="mx-3 mt-3 text-justify">
+										Voilà qui explique un peu ma relative absence de ces derniers mois... Au delà des bijoux My Bermudes, mon temps libre a été concentré sur l'organisation de notre grand événement de l'année 2018 : notre mariage ! Alors que nou...  </p>
+									</div>
+									<div class="col-12 col-md-12 col-sm-12 col-lg-8">
+										 <a href="article.html" class="button">Lire plus</a>
+									</div>
+									
+							</article>
+							<article>
+								<div class="col-2 col-md-2 col-sm-2 col-lg-2 mt-3 ml-3 mb-3 lifestyle">LIFESTYLE</div>
+								<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+									<strong>SE METTRE À LA MÉDITATION</strong>
+								</div>
+								<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+									<small>October 22, 2017</small> 
+								</div>
+								<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+									<img src="assets/img/4.png" class="img img-fluid" alt="image lifestyle bijoux">
+								</div>
+								<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+									<p class="mx-3 mt-3 text-justify">
+										Hello ! Je suis très heureuse de vous retrouver aujourd'hui sur My Bermudes, pour un petit article dédié à une nouvelle habitude que j'ai adoptée à la rentrée : la méditation. Si les bienfaits de cette pratique ne sont plus à...  
+									</p>
+								</div>
+								<div class="col-12 col-md-12 col-sm-12 col-lg-8">
+									 <a href="article.html" class="button">Lire plus</a>
+								</div>
+							</article>
+							<article>
+								<div class="col-2 col-md-2 col-sm-2 col-lg-2 mt-3 ml-3 mb-3 lifestyle">LIFESTYLE</div>
+								<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+								<strong>MY BERMUDES : LES BIJOUX !</strong>
+								</div> 
+								<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+								<small>September 19, 2017</small> 
+								</div>
+								<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+									<img src="assets/img/5.png" class="img img-fluid " alt="image lifestyle meditation">
+								</div>
+								<div class="col-12 col-md-12 col-sm-12 col-lg-9">
+								<p class="mx-3 mt-3 text-justify">
+									Hello ! Me voici de retour avec beaucoup de contenu à partager avec vous en cette rentrée bien chargée, et je commence avec un petit projet qui me tient particulièrement à coeur. Si vous me suivez depuis quelques temps et l'a... 
+								</p>
+								</div>
+								<div class="col-12 col-md-8 col-sm-8 col-lg-8">
+								 <a href="article.html" class="button">Lire plus</a>
+								</div>
+							</article>
+							<section class="col-12 col-md-8 col-sm-8 col-lg-8 mt-3 ml-3 pagination">
+								<span>1</span>
+								<span>2</span>
+								<span>3</span>
+								<span>4</span>
+								<span>5</span>
+								<span>Next></span>
+							</section>	
 					</div>	
 				</div>
-				<hr>
-				<div>
-					<h1>ARCHIVES</h1>
-					<ul>
-						<li>July 2018 (1) </li>
-						
-						<li>October 2017 (1)</li>
-					
-						<li>September 2017 (1)</li>
-						
-						<li>August 2017 (3)</li>
-						
-						<li>July 2017 (3)</li>
-						
-						<li>June 2017 (5)</li>
-					</ul>
-				</div>
-				<div>
-					<h1> NEWLETTER</h1>
-					<form>
-						<input type="email" name="Envoyer" placeholder="email">
-					</form>
-					<button class="buton">
-						envoyer
-					</button>
-				</div>
-			</aside>	
+				<div class="col-12 col-md-12 col-sm-12 col-lg-3">
+					<aside class=" asid">
+						<div class="col-12 col-md-12 col-sm-12 col-lg-12">
+							<img src="assets/img/3.png" alt="my bermudes" class="asid-img">
+						</div>
+						<div class="col-12 col-md-12 col-sm-12 col-lg-12">
+							<p>Bienvenue sur MY BERMUDES !</p>
+							<p>Je partage sur ce blog mes coups de coeur et découvertes mode, beauté, lifestyle ainsi que mes carnets de voyages.</p>
+						</div>
+						<div class="col-12 col-md-12 col-sm-12 col-lg-12 follow">
+							<h1>FOLLOW ME</h1>
+						</div>
+								
+						<div class="col-12 col-md-12 col-sm-12 col-lg-12"> 
+							<span >
+								<img src="assets/img/12.png" width="15" height="15" class="img-fluid icon-img" alt="icone facebook">
+							</span>
+				  			<span >
+				  				<img src="assets/img/15.png" width="15" height="15" class="img-fluid icon-img" alt="icone twitter">
+				  			</span>
+				  			<span>
+				  				<img src="assets/img/13.png" width="15" height="15" class="img-fluid icon-img" alt="icone instagram">
+				  			</span>
+				  			<span>
+				  				<img src="assets/img/1.svg" width="15" height="15" class="img-fluid icon-img" alt="icone fleur">
+				  			</span>
+				  		</div>		
+						<hr >
+						<div class="col-12 col-md-12 col-sm-12 col-lg-12">
+							<h1> DERNIERS ARTICLES</h1>
+						</div>
+						<div class="row">
+							<div class="col-12 col-md-12 col-sm-12 col-lg-12 d-image">
+								<div>
+									<img src="assets/img/1.png" class=" " width="50" height="50" alt="image paris">
+								</div>
+								<div class="text-img">
+									<p class="titre-img">UN MARIAGE CIVIL À PARIS</p>
+									<small class="date">July 28, 2018</small> 
+								</div>
+							</div>
+							<div class="col-12 col-md-12 col-sm-12 col-lg-12 d-image">
+								<div>
+									<img src="assets/img/2.png" class="img-fluid " width="50" height="50" alt="image meditation">
+								</div>
+								<div>
+									<p class="titre-img">SE METTRE À LA MÉDITATION</p>
+									<small class="date"> October 22, 2017</small>
+								</div>	
+							</div>	
+						</div>
+						<hr>
+						<div class="col-12 col-md-12 col-sm-12 col-lg-12">
+							<h1>ARCHIVES</h1>
+							<ul>
+								<li>July 2018 (1) </li>
+								
+								<li>October 2017 (1)</li>
+							
+								<li>September 2017 (1)</li>
+								
+								<li>August 2017 (3)</li>
+								
+								<li>July 2017 (3)</li>
+								
+								<li>June 2017 (5)</li>
+							</ul>
+						</div>
+						<div class="row">
+							<div class="col-12 col-md-12 col-sm-12 col-lg-12">
+								<h1> NEWSLETTER</h1>
+							</div>
+							<div class="col-12 col-md-12 col-sm-12 col-lg-12">
+								<form name="newsletter" id="news" class="" autocomplete="off">
+									<input type="email" name="email" placeholder="Email"><p class="msg text-danger d-none"></p>
+
+									<button type="submit" name="envoyer" class="buton">
+										Envoyer
+									</button>
+								</form>
+							</div>
+							
+							<div class="col-12 col-md-12 col-sm-12 col-lg-12 mt-3 ">
+								<div class="spinner-grow text-secondary d-none"  id="load" role="status">
+	  								<span class="sr-only">Loading...</span>
+								</div>
+							</div>
+							<p id="msg" class="msg"></p>
+						</div>
+					</aside>
+				</div>	
+			</div>	
 		</main>
 		
-		<footer>
-			<div>
-				<p><span class="my1"> MY</span><b class="b-footer">BERMUDES</b><br> &copy;2017 MY BERMUDES<br>Proudly created with Wix.com</p> 
+		<footer class="container-fluid mt-5">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+					<p class="my1">MY<b class="b-footer">BERMUDES</b></p>
+				</div>
+				<div class="col-12 ">
+					<p>&copy;2017 MY BERMUDES <br>Proudly created with Wix.com</p>
+				</div>
+				
 			</div>
-			<div class="footer-img">
-				<img src="assets/img/6.jpg" alt="image sapin">
-				<img src="assets/img/7.jpg" alt="image bijoux">
-				<img src="assets/img/8.jpg" alt="image carte">
-				<img src="assets/img/9.jpg" alt="image coris">
-				<img src="assets/img/10.jpg" alt="image etoile">
+			<div class="row">
+				<div class="col-11 ml-3 col-sm-2 ml-sm-3 mt-sm-3 col-md-2  col-lg-2">
+					<img src="assets/img/6.jpg" class="img-fluid " alt="image sapin">
+				</div>
+				<div class="col-11 ml-3 mt-3 col-sm-2  col-md-2  col-lg-2">
+					<img src="assets/img/7.jpg" class="img-fluid " alt="image bijoux">
+				</div>
+				<div class="col-11 ml-3 mt-3 col-sm-2  col-md-2  col-lg-2">
+					<img src="assets/img/8.jpg" class="img-fluid " alt="image carte">
+				</div>
+				<div class="col-11 ml-3 mt-3 col-sm-2  col-md-2  col-lg-2 m-lg-0">
+					<img src="assets/img/9.jpg" class="img-fluid " alt="image coris">
+				</div>
+				
+				<div class="col-11 ml-3 mt-3 col-sm-2  col-md-2  col-lg-2 m-lg-0">
+					<img src="assets/img/10.jpg" class="img-fluid " alt="image etoile">
+				</div>
 			</div>
 		</footer>
+		<script src="assets/js/blog.js">
+			
+		</script>
 	</body>
 </html>
