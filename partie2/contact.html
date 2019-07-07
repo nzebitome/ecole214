@@ -38,7 +38,7 @@
 		</header>
 		<!--Fin header-->
 		<!--main-->
-		<main>
+		<main data-id='contact'>
 			<div class="container">
 				<div class="row">
 					
@@ -54,20 +54,26 @@
 					<div class="container">
 						<div class="row ">
 							<div class="col-11 col-md-8 col-sm-8 col-lg-6 ml-3">
-								<form class="">
-								<div class="form-group">
-			    				<label for="exampleFormControlInput1">Nom*</label>
-			    				<input type="email" class="form-control" id="exampleFormControlNom" >
-			  					</div>
-			  					<div class="form-group">
-			    				<label for="exampleFormControlInput1">Email*</label>
-			    				<input type="text" class="form-control" id="exampleFormControlInput1" >
-			  					</div>
-			  					<div class="form-group">
-			    				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-			  					</div>
-			  					<button type="button" class="btn border btn-lg btn-block">Envoyer</button>
+								<form class="" name="formcontact">
+									<div class="form-group">
+				    					<label for="exampleFormControlInput1">Nom*</label>
+				    					<input type="text" class="form-control" name="nom" >
+				    					<p class="msg text-danger d-none mb-0"></p>
+				  					</div>
+				  					<p class="text-danger" id="alertn"></p>
+				  					<div class="form-group">
+				    					<label for="exampleFormControlInput1">Email*</label>
+				    					<input type="email" class="form-control" name="email1" >
+				    					<p class="msg text-danger d-none mb-0"></p>
+				  					</div>
+				  					<p class="text-danger" id="alertem"></p>
+				  					<div class="form-group">
+				    					<textarea class="form-control" name="text" rows="3"></textarea>
+				  					</div>
+				  					<button type="submit" class="btn border btn-lg btn-block">Envoyer</button>
+				  					
 								</form>
+								<p class="msg text-danger d-none mt-2"></p>
 							</div>
 							<div class="col-11 col-md-8 col-lg-5 text-left contact-right ml-5 mt-3">
 		                        <div>
@@ -109,10 +115,9 @@
 					</div>
 				</div>
 			</div>
-			
-			
 			<!-- fin section detail de l'article-->
-			<footer class="container-fluid mt-3 footer">
+		</main>
+		<footer class="container-fluid mt-3 footer">
 				<div class="row">
 					<div class="col-12 col-sm-12 col-md-12">
 						<p>
@@ -121,6 +126,8 @@
 					</div>
 				</div>
 			</footer>
-		</main>
+			<script src="assets/js/blog.js">
+				
+		</script>
 	</body>
 </html>
