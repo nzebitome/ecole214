@@ -57,20 +57,22 @@ else if (main.dataset.id == 'contact') {
 		let formContact = document.forms[0];
 
 	// ecouter un evenement lié au formulaire(addEventListener)
+
 	formContact.addEventListener('submit',function(e){
 		//gestionnaire d'evenement qui annule le comportement par defaut
 		e.preventDefault();
-		if(!this['nom'].value && !this['email1'].value && !this['text'].value){	
-		let	erreur = this.nextElementSibling;
+		for(let valeur of this){
+		if(!valeur.value){
+			let erreur = valeur.nextElementSibling;
 			erreur.classList.replace('d-none','d-block');
-			erreur.textContent = 'Tous les champs doivent etre remplis';
+			erreur.textContent= 'champs obligatoire';
 		}
-		else{
-			let	erreur = this.nextElementSibling;
-			erreur.classList.replace('d-none','d-block');
-			erreur.textContent = 'Envoyer';
 		}
+		
+	
+
 	});
+
 
 
 
